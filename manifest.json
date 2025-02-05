@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Matrix Colorizer",
+    "version": "1.1",
+    "description": "Change all CSS colors to Matrix green or a custom color.",
+    "permissions": ["storage", "scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Change Color"
+    },
+  "commands": {
+      "toggle_matrix": {
+          "suggested_key": {
+              "default": "Ctrl+M"
+          },
+          "description": "Toggle Matrix color scheme"
+      }
+  }
+  }
+  
